@@ -6,7 +6,8 @@
 
 **4 - git merge test_valide/main**
 
-**5 - if [ $prix -ge 100 ] then echo "Bonjour !" (prix=100)
+**5 
+      - if [ $prix -ge 100 ] then echo "Bonjour !" (prix=100)
 
       - echo "Bonjour est-ce que ce clavier fonctionne bien ?"
     
