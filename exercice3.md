@@ -12,7 +12,7 @@
     - echo "Même des tildes ~ ?"
     - echo "Evidemment !"**
     
-**6 - 
+**6 -**
 
 **7 - Un Routeur est qui vas permettre de crée le réseau est de communique avec les différents objets connecté**
 
