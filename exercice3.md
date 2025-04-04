@@ -6,16 +6,20 @@
 
 **4 - git merge test_valide/main**
 
-**5 
-      - if [ $prix -ge 100 ] then echo "Bonjour !" (prix=100)
-
-      - echo "Bonjour est-ce que ce clavier fonctionne bien ?"
-    
-      - echo "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
-    
-      - echo "Même des tildes ~ ?"
-    
-      - echo "Evidemment !"
+5 -
+      prix=100
+      
+      if [ $prix -ge 100 ] 
+      
+      then echo "Bonjour !" (prix=100)
+      
+      echo "Bonjour est-ce que ce clavier fonctionne bien ?"
+      
+      echo "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
+     
+      echo "Même des tildes ~ ?"
+     
+      echo "Evidemment !"
     
 **6 -**
 
