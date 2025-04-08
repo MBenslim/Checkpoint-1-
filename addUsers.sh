@@ -2,16 +2,18 @@
 # Mohamed 
 # Création d'utilisateur
 
-read -p "Nom d'utilisateur : " username
+username=$1
 
-if  cat /etc/passwd | grep -q "^$username:"
- then
-    echo "L'utilisateur $username existe déjà."
-    exit 1
-fi
 if [ -z "$username" ]
  then
     echo "Il manque les noms d'utilisateur en argument - Fin du script."
+    exit 1
+fi
+for username in $1
+do
+if  cat /etc/passwd | grep -q "$username:"
+ then
+    echo "L'utilisateur $username existe déjà."
     exit 1
 fi
 
@@ -22,3 +24,4 @@ else
     sudo useradd -m -s /bin/bash "$username"
     echo "L'utilisateur $username a été créé avec succès."
 fi
+done
