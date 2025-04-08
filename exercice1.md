@@ -27,7 +27,7 @@
 
 swapoff /dev/sda5 pour desactiver le swap de l'ancienne partition 
 
-![VirtualBox_Checkpoint1-SRVDEBIAN 2_08_04_2025_22_48_52](https://github.com/user-attachments/assets/f9ba187c-994e-409e-a19f-ece12e780ffe)
+![VirtualBox_Checkpoint1-SRVDEBIAN 2_08_04_2025_22_50_32](https://github.com/user-attachments/assets/9ab812de-6119-4527-98cf-cd1c9ca83d1f)
 
 
 
