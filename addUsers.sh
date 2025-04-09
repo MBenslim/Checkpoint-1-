@@ -2,14 +2,14 @@
 # Mohamed 
 # Création d'utilisateur
 
-username=$1
+username=$*
 
 if [ -z "$username" ]
  then
     echo "Il manque les noms d'utilisateur en argument - Fin du script."
     exit 1
 fi
-for username in $1
+for username in $*
 do
 if  cat /etc/passwd | grep -q "$username:"
  then
